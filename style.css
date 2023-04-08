@@ -1,5 +1,7 @@
+/* section 1 */
 .section1 {
     display: flex;
+    
 }
 
 .sub-section1-head {
@@ -28,12 +30,14 @@
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
     /* or 162% */
 
     text-align: right;
-    
+
+    color: #444343;
+
 
 }
 
@@ -49,4 +53,79 @@
     color: aliceblue;
 
 
+}
+
+/* section 2 */
+
+.section2 {
+    margin-top: 50px;
+    display: flex;
+    /* position: absolute; */
+width: 527.93px;
+height: 527.93px;
+left: 229px;
+top: 1134.37px;
+
+background: rgba(241, 91, 34, 0.2);
+border-radius: 50%;
+
+
+}
+
+.sub-section2-head {
+    position: absolute;
+    width: 30%;
+    /* height: 94px; */
+    left: 700px;
+    top: 900px;
+
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: left;
+}
+
+.sub-section2-p {
+
+    position: absolute;
+    width: 30%;
+    height: 104px;
+    left: 700px;
+    top: 1100px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: left;
+
+    color: #444343;
+
+
+}
+
+.sub-section1-ul {
+    position: absolute;
+    width: 349px;
+    height: 162px;
+    left: 678px;
+    top: 1224px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: left;
+
+
+    color: #444343;
 }
